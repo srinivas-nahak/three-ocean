@@ -1,0 +1,9 @@
+.canvas-loader-parent {
+  width: 100vw;
+  height: 100vh;
+  background-color: #84a7cd;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
