@@ -1,7 +1,6 @@
 import { OrbitControls, PositionalAudio } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useRef } from "react";
-import { useMediaQuery } from "react-responsive";
 import * as THREE from "three";
 import Birds from "./components/Birds";
 import BloomEffect from "./components/BloomEffect";
@@ -12,7 +11,7 @@ import SunsetSky from "./components/SunsetSky";
 import { birdPositions } from "./utils/birdPosition";
 
 const App = () => {
-  const isMobile = useMediaQuery({ maxWidth: 768 });
+  //const isMobile = useMediaQuery({ maxWidth: 768 });
   const audioRef = useRef<THREE.PositionalAudio>(null);
   const isAudioEnabled = useRef(false); // Tracks if audio has been enabled
 

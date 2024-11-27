@@ -1,9 +1,9 @@
-import { Html, useProgress } from "@react-three/drei";
+import { Html } from "@react-three/drei";
 import styles from "./CanvasLoader.style.module.css";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const CanvasLoader = () => {
-  const { progress } = useProgress();
+  //const { progress } = useProgress();
 
   //https://lottie.host/cfe6cdd1-4848-47ab-98d3-61be2e053eec/cM3Jt6d4Oh.lottie
 

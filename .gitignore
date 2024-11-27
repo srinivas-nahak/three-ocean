@@ -25,3 +25,4 @@ dist-ssr
 
 #Excluding Unused Models
 src/components/UnusedModels
+public/models/old_tram.glb
